@@ -229,6 +229,7 @@
               <sourceDirectories>${basedir}</sourceDirectories>
               <includes>**/*</includes>
               <excludes>**/.git/**/*,**/.idea/**/*,**/target/**/,**/.flattened-pom.xml,**/*.class</excludes>
+              <outputFile>reports/checkstyle/checkstyle-result.xml</outputFile>
             </configuration>
             <goals>
               <goal>check</goal>
